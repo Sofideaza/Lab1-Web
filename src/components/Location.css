@@ -1,0 +1,27 @@
+.location {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.location h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.location-info {
+  background-color: #f1f8f5;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.location-info p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.location-info pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+}
