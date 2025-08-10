@@ -1,0 +1,19 @@
+/* Estilos base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales para la app */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
