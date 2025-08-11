@@ -12,7 +12,8 @@ const PromoGrid = () => {
           title={promo.title}
           description={promo.description}
           buttonText={promo.buttonText}
-          isDark={promo.isDark}
+          image={promo.image}
+          theme={promo.theme || 'light'}
         />
       ))}
     </section>
