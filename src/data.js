@@ -1,41 +1,31 @@
-export const menuItems = [
+export const heroContent = [
   {
-    id: 1,
-    name: "Café Americano",
-    price: "$12.000",
-    description: "Café negro preparado con agua caliente",
-    image: "https://images.unsplash.com/photo-1551030173-122aabc4489c?w=200"
+    title: "Raspberry's finally back (for now)",
+    description: "Add raspberry syrup to your favorite drinks for a very limited time. Plus try the new Raspberry Cream Cold Brew.",
+    buttonText: "Order now"
   },
   {
-    id: 2,
-    name: "Latte",
-    price: "$15.000",
-    description: "Espresso con leche vaporizada",
-    image: "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?w=200"
-  },
-  {
-    id: 3,
-    name: "Cappuccino",
-    price: "$16.000",
-    description: "Espresso con leche y espuma",
-    image: "https://images.unsplash.com/photo-1534778101976-62847782c213?w=200"
+    title: "Free drink? Yes, please.",
+    description: "Enjoy a free handcrafted drink when you make a qualifying purchase during your first week as a Starbucks® Rewards member.*",
+    buttonText: "Join & order"
   }
-]
+];
 
-export const testimonials = [
+export const promotions = [
   {
-    id: 1,
-    text: "El mejor café de la ciudad!",
-    author: "Juan Pérez"
+    title: "Super-smooth cold brews",
+    description: "Savor refreshing sips of slow-steeped signature cold brew finished with Salted Caramel Cream Cold Foam or Vanilla Sweet Cream.",
+    buttonText: "Order now"
   },
   {
-    id: 2,
-    text: "Me encanta el ambiente de este lugar",
-    author: "María Gómez"
+    title: "Our captivating new collection",
+    description: "Nigerian-American artist Shade Akanbi blends tradition and modernity to create rich prints and patterns. For a limited time.",
+    buttonText: "Learn more"
+  },
+  {
+    title: "One Night Only: Private Concert in NYC",
+    description: "With exclusive access to see singer-songwriter Alex Warren live at the Starbucks Reserve NYC on 9/27/25.*",
+    buttonText: "Enter Sweepstakes",
+    isDark: true
   }
-]
-
-export const locationInfo = {
-  address: "Calle 123 #45-67, Bogotá",
-  hours: "Lunes a Viernes: 7am - 9pm\nSábado y Domingo: 8am - 8pm"
-}
+];

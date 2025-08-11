@@ -1,0 +1,25 @@
+.disclaimer {
+  background-color: var(--green-light);
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.disclaimer p {
+  margin-bottom: 0.8rem;
+  color: var(--green-dark);
+  line-height: 1.5;
+}
+
+.disclaimer a {
+  color: var(--green-medium);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.disclaimer a:hover {
+  text-decoration: none;
+}

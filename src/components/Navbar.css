@@ -3,21 +3,61 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #006341;
-  color: white;
+  background-color: var(--white);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  height: 50px;
+  width: auto;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 1.5rem;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: var(--green-dark);
+  transition: color 0.3s;
+  letter-spacing: 0.5px;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: var(--green-medium);
+}
+
+.nav-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--green-dark);
+  background: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.nav-button.black {
+  background-color: var(--green-dark);
+  color: var(--white);
+}
+
+.nav-button:hover {
+  background-color: rgba(30, 57, 50, 0.1);
+}
+
+.nav-button.black:hover {
+  background-color: var(--green-medium);
 }

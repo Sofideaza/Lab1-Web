@@ -1,17 +1,22 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import './Navbar.css';
+import logo from '../assets/png-transparent-starbucks.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">Starbucks</div>
+      <img src={logo} alt="Starbucks Logo" className="logo" />
       <ul className="nav-links">
-        <li><a href="#menu">Menú</a></li>
-        <li><a href="#testimonials">Testimonios</a></li>
-        <li><a href="#location">Ubicación</a></li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">REWARDS</a></li>
+        <li><a href="#">GIFT CARDS</a></li>
       </ul>
+      <div className="nav-actions">
+        <button className="nav-button">Sign in</button>
+        <button className="nav-button black">Join now</button>
+      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -1,0 +1,65 @@
+.promo-card {
+  background-color: var(--white);
+  padding: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.promo-card h3 {
+  color: var(--green-dark);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.promo-card p {
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.promo-button {
+  background-color: transparent;
+  color: var(--green-medium);
+  border: 1px solid var(--green-medium);
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s;
+  align-self: flex-start;
+}
+
+.promo-button:hover {
+  background-color: rgba(0, 99, 65, 0.1);
+}
+
+.concert-promo {
+  background-color: var(--green-dark);
+  color: var(--white);
+}
+
+.concert-promo h3,
+.concert-promo p {
+  color: var(--white);
+}
+
+.concert-promo .promo-button {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.concert-promo .promo-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

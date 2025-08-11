@@ -1,0 +1,9 @@
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+  background-color: var(--gray-light);
+  max-width: 1200px;
+  margin: 0 auto;
+}

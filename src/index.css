@@ -1,20 +1,32 @@
 :root {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.5;
-  color: #2d2d2d;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
+  --green-dark: #1e3932;
+  --green-medium: #006341;
+  --green-light: #d4e9e2;
+  --gray-light: #f9f9f9;
+  --white: #ffffff;
+  --text-dark: #2d2d2d;
+  --text-light: #767676;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text-dark);
+  background-color: var(--white);
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
 }
